@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    
+} */
+
+.container{
+    width:100% ;
+    height: 60px;
+    background-color: aquamarine;
+    display: flex;
+}
+.container .nombre{
+    display: flex;
+    margin:0 auto ;
+    justify-content: center;
+    
+    font-family:"yellowtail" ;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.container span {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-left:5px;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "yellowtail";
+    text-shadow: 10px 10px 35px white;
+    color: white;
+}
+.container ul{
+    display: flex;
+    
+    list-style: none;
+    width: 100vh;
+    
+}
+
+.container li{
+    
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+
+.text  {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: 'Lobster', cursive;
+    font-size:50px;
+}
+
+.click{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Lobster', cursive;
+}
+
+.open_modal{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100px;
+    height:30px ;
+    border-radius: 20px;
+    padding: 1em 3em;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0 ;
+    bottom:0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+
+}
+
+.modal_container{
+    width: 90%;
+    background-color: white;
+    margin: auto ;
+    max-width:600px ;
+    max-height:90% ;
+    border-radius: 6px;
+    padding: 3em 2.5em ;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    
+
+}
+
+.modal_title{
+    font-size: 2.5rem;
+    
+}
+
+.modal_parragraph{
+    margin-bottom: 10px;
+}
+
+.modal_img{
+    width: 90%;
+    max-width: 300px;
+}
+
+.modal_close{
+    text-decoration: none;
+    background-color: aquamarine;
+    color: white;
+    padding: 1em 3em;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .2s;
+    
+}
+
+.modal_close:hover{
+    color:aquamarine ;
+    background-color: white;
+}

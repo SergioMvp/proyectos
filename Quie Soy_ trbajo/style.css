@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  width: 100vw;  
+  height: 100vh;
+  background-color: darkblue;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.brand {
+  margin-top: -7px;
+}
+.brand span {
+  color: aqua;
+}
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.menu  li {
+  list-style: none;
+
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px; 
+}
+
+.menu li:hover a{
+  background-color: aqua;
+  color: #191c32;
+}
+
+.menu .active {
+  color: aqua;
+ 
+}
+
+
+.menu li a:hover {
+  color: #66E7C8;
+}
+
+
+.main {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 2em;
+  
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.download-cv {
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+    -moz-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+  }
+
+.about{
+    height: 80vh;
+    background-color:cornflowerblue;
+
+}
+.imagen_about{
+    align-items: center;
+    text-align: center;
+    
+
+}
+.about_info{
+    align-items: center;
+    text-align: center;
+    color: black; 
+    margin-left: 500px;
+    margin-right: 500px;
+    
+}
+
+.down{
+    text-align: center;
+    height: 100px;
+    margin-top: 50px;
+}
+
+/* Estilos de las columnas */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+    
+    background-color: blue;
+    
+  }
+  
+  .column {
+    flex: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Estilos de las tarjetas */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px; 
+    background-color: #ffffff;
+    min-height: 500px;
+    margin-top: 30px;
+    margin-top: 100px;
+    
+    
+  }
+  
+  .card img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .card button {
+    background-color: #4CAF50;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 150px;
+  }
+  
+  .card button:hover {
+    background-color: #3e8e41;
+  }
+
+  .tr{
+    background-color: blue;
+    text-align: center;
+    padding-top: 100px;
+    
+  }
+  
